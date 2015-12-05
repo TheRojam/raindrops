@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: raindrops v0.987\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-16 14:54+0100\n"
-"PO-Revision-Date: 2015-11-16 15:55+0100\n"
+"PO-Revision-Date: 2015-12-05 01:12+0100\n"
 "Language-Team: raindrops-i18n <webmaster@tenman.info>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,7 +15,7 @@ msgstr ""
 "esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
 "X-Poedit-Basepath: e:/apache2.2/htdocs\n"
 "X-Textdomain-Support: yes\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 1.8.6\n"
 "Last-Translator: Anton Mueller <anton@am-news.eu>\n"
 "Language: de_DE\n"
 "X-Poedit-SearchPath-0: raindrops\n"
@@ -119,8 +119,8 @@ msgstr "Gib bitte das Passwort ein, um die Kommentare zu sehen."
 #, php-format
 msgid "One Response to %2$s"
 msgid_plural "%1$s Responses to %2$s"
-msgstr[0] "Ein Antwort zu %2$'s Kommentar"
-msgstr[1] "%1$'s Antworten zu %2$'s Kommentar"
+msgstr[0] "Ein Antwort zu %2$s Kommentar"
+msgstr[1] "%1$s Antworten zu %2$s Kommentar"
 
 # @ raindrops
 #: raindrops/comments.php:46 raindrops/comments.php:59
@@ -170,235 +170,239 @@ msgstr "Donnerstag"
 # @ raindrops
 #: raindrops/date.php:98
 msgid "Friday"
-msgstr ""
+msgstr "Freitag"
 
 # @ raindrops
 #: raindrops/date.php:99
 msgid "Saturday"
-msgstr ""
+msgstr "Sonntag"
 
 # @ raindrops
 #: raindrops/date.php:116 raindrops/functions.php:2425
 msgid "Yearly Archives"
-msgstr ""
+msgstr "Jahresarchiv"
 
 # @ raindrops
 #: raindrops/date.php:122 raindrops/functions.php:2413
 msgid "Monthly Archives"
-msgstr ""
+msgstr "Monatsarchiv"
 
 # @ raindrops
 #: raindrops/date.php:127 raindrops/functions.php:2408
 msgid "Daily Archives"
-msgstr ""
+msgstr "Tagesarchive"
 
 # @ raindrops
 #: raindrops/footer.php:39
 msgid "and"
-msgstr ""
+msgstr "und"
 
 #: raindrops/footer.php:47
 msgid "Entries RSS"
-msgstr ""
+msgstr "Beitrags-RSS"
 
 # @ raindrops
 #: raindrops/footer.php:49
 msgid "Comments RSS"
-msgstr ""
+msgstr "Kommtar RSS"
 
 # @ raindrops
 #: raindrops/footer.php:54 raindrops/footer.php:57
 msgid "Raindrops Theme"
-msgstr ""
+msgstr "Raindops Design"
 
 # @ raindrops
 #: raindrops/functions.php:179
 msgid "Raindrops Help"
-msgstr ""
+msgstr "Randrops-Hilfe"
 
 #: raindrops/functions.php:180
 msgid "About Base Color related Class"
-msgstr ""
+msgstr "Über die Base Color verwandte Klasse "
 
 # @ raindrops
 #: raindrops/functions.php:192
 msgid "Raindrops Theme Help"
-msgstr ""
+msgstr "Raindrops Design Hilfe"
 
 # @ raindrops
 #: raindrops/functions.php:193
 msgid "About Raindrops Theme"
-msgstr ""
+msgstr "Über Raindrops"
 
 # @ default
 #: raindrops/functions.php:207
 msgid "Now RAINDROPS_USE_AUTO_COLOR value false and Cannot show this help"
 msgstr ""
+"Jetzt ist  RAINDROPS_USE_AUTO_COLOR falsch und daher kann diese Hilfe nicht "
+"angezeigt werden."
 
 # @ raindrops
 #: raindrops/functions.php:258
 msgid "Primary Navigation"
-msgstr ""
+msgstr "Haupnavigation"
 
 # @ raindrops
 #: raindrops/functions.php:677 raindrops/functions.php:4188
 msgid "Default Sidebar"
-msgstr ""
+msgstr "Standard Sidebar"
 
 # @ raindrops
 #: raindrops/functions.php:687 raindrops/functions.php:4186
 msgid "Extra Sidebar"
-msgstr ""
+msgstr "Extra Sidebar"
 
 # @ raindrops
 #: raindrops/functions.php:696
 msgid "Sticky Widget"
-msgstr ""
+msgstr "Sticky Widget"
 
 # @ raindrops
 #: raindrops/functions.php:705
 msgid "Footer Widget"
-msgstr ""
+msgstr "Fußzeilen Widget"
 
 #: raindrops/functions.php:714
 msgid "Post Format Status Sidebar"
-msgstr ""
+msgstr "Beitragformat Status Sidebar"
 
 # @ raindrops
 #: raindrops/functions.php:810
 #, php-format
 msgid "If you add  %s when you must create function %s for data validation"
 msgstr ""
+"Wenn du % s hinzufügen, musst du die Funktions% s für Datenbestätigung "
+"erstellen"
 
 #: raindrops/functions.php:952
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 # @ raindrops
 #: raindrops/functions.php:955
 msgid "says:"
-msgstr ""
+msgstr "sagt:"
 
 # @ raindrops
 #: raindrops/functions.php:961
 #, php-format
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s bei %2$s"
 
 # @ raindrops
 #: raindrops/functions.php:963 raindrops/functions.php:1004
 msgid " Edit "
-msgstr ""
+msgstr "Bearbeiten"
 
 # @ raindrops
 #: raindrops/functions.php:973
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Dein Beitrag wartet auf die Moderation."
 
 #: raindrops/functions.php:987
 msgid "Reply"
-msgstr ""
+msgstr "Antwort"
 
 # @ raindrops
 #: raindrops/functions.php:1001
 msgid "Pingback:"
-msgstr ""
+msgstr "Pingback:"
 
 # @ raindrops
 #: raindrops/functions.php:1036 raindrops/functions.php:1039
 #: raindrops/functions.php:1050 raindrops/functions.php:1053
 msgid "This entry was posted in"
-msgstr ""
+msgstr "Die Beitrag wurde kategorisiert in"
 
 #: raindrops/functions.php:1036 raindrops/functions.php:1050
 msgid "and tagged"
-msgstr ""
+msgstr "und verschlagwortet"
 
 #: raindrops/functions.php:1036
 msgid "Bookmark the"
-msgstr ""
+msgstr "Lesezeichen setzen"
 
 # @ raindrops
 #: raindrops/functions.php:1089 raindrops/functions.php:5907
 msgid "Comment"
 msgid_plural "Comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kommentar"
+msgstr[1] "Kommentare"
 
 # @ raindrops
 #: raindrops/functions.php:1093
 msgid "Comment "
-msgstr ""
+msgstr "Kommentar"
 
 #: raindrops/functions.php:1102
 #, php-format
 msgid "%1$s %5$s %2$s %6$s %3$s %4$s"
-msgstr ""
+msgstr "%1$s %5$s %2$s %6$s %3$s %4$s"
 
 #: raindrops/functions.php:1102 raindrops/functions.php:2338
 #, php-format
 msgid "View all posts by %s"
-msgstr ""
+msgstr "Zeige alle Beiträge von %s"
 
 #: raindrops/functions.php:1102
 msgid "Posted on"
-msgstr ""
+msgstr "Veröffentlicht am"
 
 #: raindrops/functions.php:1102
 msgid "by"
-msgstr ""
+msgstr "von"
 
 # @ raindrops
 #: raindrops/functions.php:1201
 msgid "Theme URI"
-msgstr ""
+msgstr "Design URI"
 
 # @ raindrops
 #: raindrops/functions.php:1203
 msgid "Author"
-msgstr ""
+msgstr "Verfasser"
 
 #: raindrops/functions.php:1205
 msgid "Support"
-msgstr ""
+msgstr "Support"
 
 #: raindrops/functions.php:1205
 msgid "http://wordpress.org/support/theme/raindrops"
-msgstr ""
+msgstr "http://wordpress.org/support/theme/raindrops"
 
 #: raindrops/functions.php:1205
 msgid "http://ja.forums.wordpress.org/ lang:Japanese"
-msgstr ""
+msgstr "http://de.forums.wordpress.org/ lang:German"
 
 # @ raindrops
 #: raindrops/functions.php:1207
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 # @ raindrops
 #: raindrops/functions.php:1209
 msgid "Change log text"
-msgstr ""
+msgstr "Change log"
 
 # @ raindrops
 #: raindrops/functions.php:1209
 msgid "Changelog , display new window"
-msgstr ""
+msgstr "Changelog , im neuen Fenster anzeigen"
 
 # @ raindrops
 #: raindrops/functions.php:1211
 msgid "Readme text"
-msgstr ""
+msgstr "Liesmich"
 
 # @ raindrops
 #: raindrops/functions.php:1211
 msgid "Readme , display new window"
-msgstr ""
+msgstr "Liesmich im neuen Fenster anzeigen"
 
 # @ raindrops
 #: raindrops/functions.php:1239
 msgid "Tips"
-msgstr ""
+msgstr "Tipps"
 
 # @ raindrops
 #: raindrops/functions.php:1240
@@ -406,6 +410,8 @@ msgid ""
 "If Raindrops Options panel is opened, and the reference color is set, this "
 "arrangement of color is changed at once."
 msgstr ""
+"Wenn das \"Raindrops\" Optionstafel geöffnet ist und die Referenzfarbe "
+"gesetzt ist, wird diese Anordnung der Farbe sofort geändert. "
 
 # @ raindrops
 #: raindrops/functions.php:1241
@@ -444,6 +450,7 @@ msgstr ""
 #, php-format
 msgid "Sorry Your PHP version is %s Please use PHP version 5 || later."
 msgstr ""
+"Sorry Deine PHP Version is %s Bitte benutze die PHP Version 5 oder aktueller."
 
 # @ raindrops
 #: raindrops/functions.php:1663
@@ -1944,66 +1951,67 @@ msgstr ""
 
 # @ raindrops
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 # @ raindrops
 msgid "raindrops infomation"
-msgstr ""
+msgstr "Raindrops Information"
 
 # @ raindrops
 msgid "Page %s"
-msgstr ""
+msgstr "Seite %s"
 
 # @ raindrops
 msgid "Category Blog Widget"
-msgstr ""
+msgstr "Kategorie Blog Widget"
 
 msgid "permalink"
-msgstr ""
+msgstr "Permalink"
 
 # @ raindrops
 msgid "This entry has no title"
-msgstr ""
+msgstr "Dieser Eintrag hat keinen Titel"
 
 # @ raindrops
 msgid "More Galleries"
-msgstr ""
+msgstr "Mehr Galerien"
 
 msgid "Bookmark the "
-msgstr ""
+msgstr "Lesezeichen setzen"
 
 # @ raindrops
 msgid "<span>Newer posts <span class=\"meta-nav\">&rarr;</span></span>"
-msgstr ""
+msgstr "<span>Neuere Beiträge <span class=\"meta-nav\">&rarr;</span></span>"
 
 # @ raindrops
 msgid "This entry was posted in "
-msgstr ""
+msgstr "Dies Eintrag wurde gepostet in "
 
 # @ raindrops
 msgid "Text Color "
-msgstr ""
+msgstr "Textfarbe"
 
 # @ raindrops
-#, fuzzy
 msgid ""
 "Please choose width on the page.\n"
 "    Please choose from four kinds of inside of 750px centerd 950px centerd "
 "fluid 974px."
 msgstr ""
-"750px 中央 950px 中央 100% fluid 974pxの4種類のページ幅からどれかを選んでくだ"
-"さい"
+"Bitte wähle die Breite auf dieser Seite\n"
+"\tBitte wähle aus vier Arten aus Innerer mit 750px zentriert mit 950px "
+"variabel zentriert mit 974px"
 
 # @ raindrops
-#, fuzzy
 msgid ""
 "When display extra sidebar is set to show, it is necessary to specify it. It "
 "can decide to divide the width of which place of extra sidebar and to give "
 "it. Please select it from among 25% 33% 50% 66% 75%. "
 msgstr ""
-"エキストラサイドバーを表示させる設定にした時には、とエキストラサイドバーの幅"
-"も設定する必要があります。25% 33% 50% 66% 75%.農地いずれかをセットしてくださ"
-"い"
+"Wann anzeigen zusätzlichen Randblock ist gesetzt, zu zeigen, dass es "
+"notwendig ist, ihn anzugeben. \n"
+"Wenn du eine zusätzliche Sidebar  \n"
+"Er kann beschließen, die Breite welcher Stelle des zusätzlichen Randblocks "
+"zu teilen und sie zu geben. Bitte wählen ihn von unter 25% 33% 50% 66% 75%. "
 
 # @ raindrops
 msgid "Continue&nbsp;reading&nbsp;<span class=\"meta-nav\">&rarr;</span>"
